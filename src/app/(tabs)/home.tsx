@@ -1,13 +1,13 @@
 import { Placeholder } from "@/components/Placeholder";
 import { useRouter } from "expo-router";
 
-export default function WelcomeScreen() {
+export default function HomeScreen() {
   const router = useRouter();
   return (
     <Placeholder
-      title="Welcome"
-      actionLabel="Go to Login"
-      onAction={() => router.push("/login")}
+      title="Home"
+      actionLabel="Open Form"
+      onAction={() => router.push("/form")}
     />
   );
 }
