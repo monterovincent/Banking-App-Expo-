@@ -1,9 +1,8 @@
 import { colors } from "@/theme";
+import type { IconName } from "@/types";
 import { Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
-import type { ComponentProps } from "react";
 import type { ColorValue } from "react-native";
-type IconName = ComponentProps<typeof Ionicons>["name"];
 
 // One place to build tab icons; milestone for the app
 const tabIcon =
