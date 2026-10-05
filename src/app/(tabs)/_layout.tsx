@@ -34,7 +34,11 @@ export default function TabsLayout() {
           borderTopWidth: 0,
           elevation: 0,
         },
-        tabBarLabelStyle: { fontSize: fontSize.small, fontWeight: "600" },
+        tabBarLabelStyle: {
+          fontSize: fontSize.small,
+          fontWeight: "600",
+          width: 96,
+        },
       }}
     >
       <Tabs.Screen
