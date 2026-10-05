@@ -2,6 +2,7 @@
 // Colors sampled from the reference screenshots
 export const colors = {
   background: "#1E1D23",
+  backdrop: "#1A1A1A", // Home page behind the cards; cards are lighter than this
   headerBackground: "#211819", // faint warm tint behind screen headers
   surface: "#282828", // icon tiles, avatars
   surfaceRaised: "#3D3D3D", // ledger strip
@@ -25,7 +26,7 @@ export const spacing = {
   xl: 24,
   xxl: 32,
 } as const;
-export const radius = { sm: 8, md: 12, lg: 20, pill: 999 } as const;
+export const radius = { sm: 8, md: 14, lg: 20, pill: 999 } as const;
 export const fontSize = {
   small: 11,
   caption: 13,
@@ -33,5 +34,6 @@ export const fontSize = {
   subtitle: 16,
   title: 22,
   heading: 26,
+  amount: 30,
   display: 36,
 } as const;
