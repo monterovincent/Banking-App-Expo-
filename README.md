@@ -272,7 +272,7 @@ Every component has a typed props object (`type XProps = { ... }`), and optional
 
 ## Component organization rules
 
-The assignment asks when a component gets its own file and when it stays in its parent. The rule used throughout:
+The project asks when a component gets its own file and when it stays in its parent. The rule used throughout:
 
 | Situation                                                | Where it lives                   | Examples                                                                                      |
 | -------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------- |
