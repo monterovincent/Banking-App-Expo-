@@ -4,7 +4,7 @@ A front-end clone of the Zenith Bank mobile banking app, built with Expo, React 
 
 There is no backend. All data is mock data, and login is a mock so the app can be reviewed without credentials.
 
-Built for SAIT (Mobile App Development) as the "Advanced Multi-Screen Mobile Application" assignment.
+Built for SAIT (Mobile App Development) as the "Advanced Multi-Screen Mobile Application" project.
 
 > **Educational project, not affiliated with Zenith Bank, Dangote, or Quickteller.** Brand names and logos belong to their owners and are used for illustration only. The Welcome background photo is AI-generated, and every person's name in the app is invented.
 
